@@ -1,7 +1,9 @@
 #include <iostream>
 #include <queue>
 using namespace std;
-
+/* *
+* Lucas Gomes dos Santos
+*/
 int main() {
     queue<int> senhasGeradas;
     queue<int> senhasAtendidas;
@@ -34,7 +36,7 @@ int main() {
                 break;
             case 2:
                 if (senhasGeradas.empty()) {
-                    cout << "Não há senhas para atender.\n";
+                    cout << "NÃ£o hÃ¡ senhas para atender.\n";
                 } else {
                     int senha = senhasGeradas.front();
                     senhasGeradas.pop();
